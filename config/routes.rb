@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'projects/summary'
+
+  get 'pages/projects'
+
   get 'welcome/homepage'
 
   # The priority is based upon order of creation: first created -> highest priority.
