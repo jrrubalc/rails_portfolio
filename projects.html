@@ -22,49 +22,92 @@
 	<link href="http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
 	<link href="http://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
 
-
+	<style>		
+		.project-header {
+            padding-top: 100px;
+            padding-bottom: 10px;
+		}
+	</style>
 </head>
 
 <body>
+  <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="index.html">
+                    <i class="fa fa-play-circle"></i>  <span class="light">mr</span>rockabilly
+                </a>
+            </div>
 
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+                <ul class="nav navbar-nav">
+                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="index.html#about">About</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="index.html#projects">Projects</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="index.html#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
 	<header>
-		<h1>
-            <center>Projects Page</center>
-        </h1>
+		<h1 class="project-header">
+			<center>Projects Page</center>
+		</h1>
 	</header>
 
 	<div class="container">
 		<div class="media">
 			<div class="media-left">
 				<a href="#">
-					<img width="200px" class="media-object" src="images/intro-bg.jpg" alt="...">
+					<img width="100px" class="media-object" src="https://ipfs.io/ipfs/QmdjC7zjKi7pYoo3YatWL6pNvJqDxAZJhXBBeXzXhzhEwp" alt="dandelion-logo">
 				</a>
 			</div>
 			<div class="media-body">
 				<h4 class="media-heading">Dispersion</h4>
-				Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+				Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum
+				in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis
+				in faucibus.
 			</div>
 		</div>
 		<div class="media">
 			<div class="media-left">
 				<a href="#">
-					<img width="200px" class="media-object" src="images/intro-bg.jpg" alt="...">
+					<img width="100px" class="media-object" src="images/twitter-256.png" alt="twitter-bird">
 				</a>
 			</div>
 			<div class="media-body">
 				<h4 class="media-heading">Yelp-Twitter</h4>
-				Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+				Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum
+				in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis
+				in faucibus.
 			</div>
 		</div>
 		<div class="media">
 			<div class="media-left">
 				<a href="#">
-					<img width="200px" class="media-object" src="images/intro-bg.jpg" alt="...">
+					<img width="100px" height="100px" class="media-object" src="images/yellow-highlighter.png" alt="whiteboard-marker">
 				</a>
 			</div>
 			<div class="media-body">
 				<h4 class="media-heading">Boardroom</h4>
-				Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis in faucibus.
+				Cras sit amet nibh libero, in gravida nulla. Nulla vel metus scelerisque ante sollicitudin commodo. Cras purus odio, vestibulum
+				in vulputate at, tempus viverra turpis. Fusce condimentum nunc ac nisi vulputate fringilla. Donec lacinia congue felis
+				in faucibus.
 			</div>
 		</div>
 		<div>
@@ -73,6 +116,7 @@
 			<script src="javascripts/jquery.js"></script>
 			<script src="javascripts/bootstrap.min.js"></script>
 			<script src="javascripts/jquery.easing.min.js"></script>
+			<script src="javascripts/grayscale.js"></script>
 
 </body>
 
